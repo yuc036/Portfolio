@@ -1,3 +1,7 @@
+# Portfolio
+
+Portfolio can be accessed via [https://tracychen.herokuapp.com](https://tracychen.herokuapp.com)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
