@@ -1,10 +1,6 @@
 import React from 'react';
-import { useSpring, animated } from 'react-spring';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from "react-router-dom";
+import { animated } from 'react-spring';
+import { Link } from 'react-router-dom';
 import Tooltip from '@material-ui/core/Tooltip';
 
 function Card(props) {
