@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.t-card {
+  margin: 20px;
+  border-radius: 4px;
+  box-shadow: 0 -2px 16px 0 rgba(0, 0, 0, 0.05);
+}
+
+.t-card:hover {
+  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.05);
+  transform: scale(1.02);
+}
+
+.t-card-image {
+  border-radius: 4px 4px 0 0;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+}
+
+.t-card-text {
+  box-sizing: border-box;
+  padding: 15px 20px;
+  line-height: 24px;
+}
+
+.t-card-title {
+  color: #5C5C5C;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.t-card-title:link, .t-card-title:hover {
+  text-decoration: none;
+  color: #999;
+}
+
+.t-card-tag {
+  color: #999;
+  font-size: 10px;
+  padding: 0px 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.t-card-sub-title {
+  font-size: 16px;
+}
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: #EE6352;
+  padding: 10px 15px;
+}
