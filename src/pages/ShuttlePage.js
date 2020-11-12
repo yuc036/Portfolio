@@ -21,7 +21,7 @@ function ShuttlePage(props) {
         
         <div>
           <h5 className="pt-4">Project Background:</h5>
-          <p>UCSD students needs to take shuttles very often. However, there're no inidividual apps for shuttle tracking. Therefore, my friend and I decided to develop an Android App for UCSD students to track shuttle status.</p>
+          <p>UCSD students need to take shuttles very often. However, there're no individual apps for shuttle tracking. Therefore, my friend and I decided to develop an Android App for UCSD students to track shuttle status.</p>
         </div>
 
         <div>
