@@ -32,12 +32,13 @@ import kpis from '../assets/images/redesign/kpis.png';
 
 function RedesignPage(props) {
   let url = "https://charrette-homepage-redesign.herokuapp.com";
+  let github_url = "https://github.com/yuc036/Charrette-Homepage-Redesign";
   return(
     <div>
       <Content>
         <h2 className="pt-5 pb-3">Macy's Homepage Redesign</h2>
         <p>This project is designed for Macy's Charrette Homepage Redesign Hack-a-thon in August 2018, which is to redesign the homepage for <a href="https://www.macys.com/" target="_blank" rel="noopener noreferrer" style={{color: "#EA0000", fontWeight: "500"}}>macys.com</a>. I'm in charge of all the <b>frontend</b> development to bring the static design sketches to a responsive <b>dynamic</b> webpage.</p>
-        <p>The <b>demo</b> is still alive and can be accessed via <a href={url} target="_blank" rel="noopener noreferrer" style={{color: "grey"}}>{url}</a>.</p>
+        <p>The <b>demo</b> is still alive and can be accessed via <a href={url} target="_blank" rel="noopener noreferrer" style={{color: "grey"}}>{url}</a>, and you can check the source code here: <a href={github_url} target="_blank" rel="noopener noreferrer" style={{color: "grey"}}>{github_url}</a></p>
         <p>I used <b>React JS</b> as the framework and this webpage is fully <b>responsive</b> as well, which works perfectly on either mobile, tablet or desktop.</p>
         
         <div className="pt-5">
