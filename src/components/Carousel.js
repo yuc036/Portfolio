@@ -100,6 +100,9 @@ class Carousel extends React.Component {
   render() {
     return(
       <Container>
+        <div style={{width: "300px", fontFamily: "fantasy", fontSize: "18px"}}>
+          ✮ Jump to my <a href="https://github.com/yuc036" target="_blank" rel="noopener noreferrer" className="github-link">GitHub</a> repository
+        </div>
         <fieldset className="border mt-4">
           <legend className="text-center font-italic" style={{width: "300px", fontFamily: "fantasy", fontSize: "20px"}}>Checkout my projects below</legend>
           <Row className="justify-content-around px-5">
@@ -109,7 +112,6 @@ class Carousel extends React.Component {
       </Container>
     );
   }
-
 }
 
 export default Carousel;
